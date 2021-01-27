@@ -1,0 +1,242 @@
+
+@media screen and (max-width: 1200px)
+{
+.about{
+	background-size: 100%;
+}
+}
+@media screen and (max-width: 935px)
+{
+	.menu {
+		height: 1570px;
+	
+	}
+	.special-grid1{
+		grid-template-columns: repeat(2, 1fr);
+		
+	  }	
+	  .about{
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+	.inner-about{
+	width: 100%;
+
+	}
+	.footer-columns, .footer-column
+	{
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+	table td {
+		font-size: 1.4rem;
+	   }
+	   table {
+		border: 0;
+	  }
+	
+	 table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	  }
+	  
+	  table tr {
+		margin-bottom: 1rem;
+	  }
+	  
+	  table td {
+		display: block;
+		text-align: right;
+	  }
+	  
+	  table td::before {
+			content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	  }
+	  
+	  table td:last-child {
+		border-bottom: 0;
+	  }
+}
+
+@media screen and (max-width: 755px)
+{
+	header,
+	header.sticky
+	{
+		padding: 20px 0px;
+		z-index: 1000;
+	}
+	.mymenu
+	{
+		position: fixed;
+		top: 75px;
+		left: -100%;
+		display: block;
+		padding: 50px 50px;
+		text-align: center;
+		width: 100%;
+		height: 100vh;
+		background: #fff;
+		transition: 0.5s;
+		z-index: 999;
+		border-top: 1px solid rgba(0,0,0,0.2);
+	}
+	.mymenu.active
+	{
+		left: 0;
+	}
+	header ul li a
+	{
+		color: #111;
+		font-size: 24px;
+		margin: 10px;
+	}
+	.toggle
+	{
+		width: 40px;
+		height: 40px;
+		background: url(../images/menu.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 30px;
+		cursor: pointer;
+	}
+	.toggle.active
+	{
+		background: url(../images/close.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 25px;
+		cursor: pointer;
+	}
+		
+	.imandaaru h2 {
+	
+		font-size: 6rem;
+		
+	}
+	  
+}
+@media screen and (max-width: 660px)
+{
+	.about{
+		padding: 0;
+	}
+	.inner-about{
+		padding: 60px;
+	}
+	
+.about-button button{
+	font-size: 2rem;
+	padding: 5px;
+	width: 160px;
+}
+}
+@media screen and (max-width: 534px)
+{
+	
+	.menu {
+		
+		height: 2875px;
+	
+	}
+	
+	.special-grid1{
+		grid-template-columns: repeat(1, 1fr);
+		
+	  }	
+	
+	.imandaaru h2 {
+	
+		font-size: 4rem;
+		
+	}
+	  
+}
+
+@media screen and (max-width: 380px)
+{
+	.menu {
+		
+		height: 2980px;
+	
+	}
+	.btn-box{
+		flex-direction: column;
+		margin-bottom: 3px;
+	}
+	.btn-box button{
+		padding: 1rem 0;
+		text-align: center;
+	}
+	.imandaaru h2 {
+	
+		font-size: 2.9rem;
+		
+	}
+	.footer-column h1{
+		text-align: center;
+	}
+	.socials{
+		text-align: center;
+	}
+	  table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	  }
+	  
+	 table td {
+		border-bottom: 1px solid #ddd;
+		text-align: right;
+	  }
+	 
+	  	  
+	  }
+	  @media screen and (max-width: 269px)
+	  {
+		  html{
+			  font-size: 50%;
+		  }
+		  .sci {
+			bottom: 0px;
+			
+		}
+		.mymenu {
+			top: 62px;
+			
+		}
+		  .menu {
+		
+			height: 2900px;
+		
+		}
+		  .imandaaru h2 {
+	
+			font-size: 2.5rem;
+			
+		}
+		  .footer-column h1{
+			text-align: center;
+		}
+		.socials{
+			text-align: center;
+		}
+		.socials a{
+			margin: 0;
+		}
+	  }

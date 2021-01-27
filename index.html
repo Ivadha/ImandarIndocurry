@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ImandarIndoCurry</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mediaquaries.css">
+</head>
+
+<body>
+	<!-- Header Part -->
+	<header>
+		<a href="#" class="logo">ImandarIndoCurry<span>.</span></a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+		<ul class="mymenu" id="myTopnav">
+			<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+			<li><a href="#about" onclick="toggleMenu();">About</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+		</ul>
+	</header>
+
+
+	<!-- Content -->
+	<section class="banner" id="home">
+		<div class="content">
+			<h5>Treat Yourself</h5>
+			<h1>Food that you can't Resist</h1>
+
+			<a href="tel:+81 0532-32-6588" class="btn1">Book Table</a>
+		</div>
+		<ul class="sci">
+			<li><a href="#"><img src="images/facebook.png"></a></li>
+			<li><a href="#"><img src="images/twitter.png"></a></li>
+			<li><a href="#"><img src="images/instagram.png"></a></li>
+		</ul>
+	</section>
+
+
+	<!-----menu section----->
+	<div class="menu" id="menu">
+		<div class="menu-heading">
+			<h4><span>fresh food for good health</span>our menu</h4>
+		</div>
+		<div class="btn-box">
+			<button id="btn2" onclick="openMainset()">Lunch/Set</button>
+			<button id="btn3" onclick="openLunch()">Curryset</button>
+			<button id="btn4" onclick="openSidemenu()">Sidemenu</button>
+
+		</div>
+
+
+		<div id="mainset" class="special-grid1">
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/muttoncurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Mutton Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/chickencurryjpg.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Chicken Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/vegetables.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Vegetable Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/spinach.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Chicken Spinach/Spinach Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/spinachpanircurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Spinach Panir</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/Keema.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Kheema Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/Chicken-Lababdar.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Chicken Lababdar Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/buttercurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Butter Chicken Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+		</div>
+
+
+		<div id="lunch" class="special-grid1">
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/omlet.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Omlet Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/1000.jpg" alt="">
+				</div>
+				<h1 class="menu-title">1000Yen Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">1200Yen Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">1450Yen Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Kid's Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/drycurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Dry Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/doublecurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Double Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Imandar Curryset</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+		</div>
+
+		<div id="sidemenu" class="special-grid1">
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/sizzler.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Tandoori Chicken</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/cheese-naan.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Cheese Naan</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Imandar Naan</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/butternaan.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Butter Naan</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/Garlictikka.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Garlic Tika</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/garlic-naan.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Garlic Naan</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/chickn-kadai.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Chicken Khadai Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+
+			</div>
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/muttonkhadai.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Mutton Khadai Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!------about Section----->
+	<div class="main-about" id="about">
+		<div class="about">
+		<div class="inner-about">
+			<h1>About Us</h1>
+			<p class=p-text>
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+			</p>
+			<p class=p-text>
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+				We cook the best food in the entire city, with excellent customer service, the best meals and at the
+				best price, visit us.
+			</p>
+			<div class="about-button">
+				<a href="#contact"><button>Contact Us</button></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!--------special section------>
+	<div class="special-menu">
+		<div class="special-heading">
+			<h1>our <span>Special</span></h1>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, atque.</p>
+		</div>
+		<div class="special-grid">
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/dalbhat.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Daal Bhat</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/muttoncurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Mutton Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/buttercurry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Butter Curry</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+
+			</div>
+
+			<div class="menu-hold">
+				<div class="menu-img">
+					<img src="images/curry.jpg" alt="">
+				</div>
+				<h1 class="menu-title">Imandaru Naan</h1>
+				<p class="menu-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloribus,
+					ea veniam velit sed harum qui perferendis debitis cumque obcaecati.</p>
+			</div>
+		</div>
+
+	</div>
+	<br>
+
+	<!-- logo name-->
+	<div class="imandaaru">
+		<h2>
+			ImandarIndoCurry<span>.</span>
+		</h2>
+	</div>
+
+	<footer class="footer" id="contact">
+		<div class="footer-columns">
+			<div class="footer-column">
+				<h1>ImandarIndoCurry<span>.</span></h1>
+				<p>We cook the best food, with excellent customer service, the best meals and at the
+					best price, visit us.</p>
+				<br>
+				<div class="socials">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+			</div>
+
+			<div class="footer-column">
+				<h2>Address</h2>
+				<div class="social">
+					<i class="fa fa-map-marker">
+						<p>441ー8077 Aichi-ken Toyohashi-Shi
+							Jinnoshindencho aza wonowari 17-3 name Imandaru</p>
+					</i>
+					<i class="fa fa-phone">
+						<p>0532-32-6588</p>
+					</i>
+					<i class="fa fa-envelope">
+						<p>abde9898@gmail.com</p>
+					</i>
+				</div>
+			</div>
+		</div>
+		<div class="table-container">
+			<h2 class="table-heading"><i class="fa fa-clock-o"></i>Timing</h2>
+
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Sunday</th>
+						<th scope="col">Monday</th>
+						<th scope="col">Tuesday</th>
+						<th scope="col">Wednesday</th>
+						<th scope="col">Thursday</th>
+						<th scope="col">Friday</th>
+						<th scope="col">Saturday</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td data-label="Sunday">11:00-15:00 17:00-22:00</td>
+						<td data-label="Monday">11:00-15:00 17:00-22:00</td>
+						<td data-label="Tuesday">11:00-15:00 17:00-22:00</td>
+						<td data-label="Wednesday">11:00-15:00 ClOSE</td>
+						<td data-label="Thursday">11:00-15:00 17:00-22:00</td>
+						<td data-label="Friday">11:00-15:00 17:00-22:00</td>
+						<td data-label="Saturday">11:00-15:00 17:00-22:00</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="bottom">
+			<h5>Copyright © 2020 All rights reserved|Ivadha</h5>
+		</div>
+	</footer>
+
+	<!-- Navbar sticky Script-->
+	<script src="js/sticky.js"></script>
+
+	<!-- Tabs Script -->
+	<script src="js/tabs.js"></script>
+
+</body>
+
+</html>
